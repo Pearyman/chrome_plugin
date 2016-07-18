@@ -2,6 +2,8 @@
 bin/
 bin-debug/
 bin-release/
+.DS_Store
+*/.DS_Store
 [Oo]bj/ # FlashDevelop obj
 [Bb]in/ # FlashDevelop bin
 
