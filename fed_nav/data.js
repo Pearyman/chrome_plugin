@@ -1,4 +1,5 @@
-[
+
+var data=[
     {
         "A": [
             {
@@ -891,16 +892,7 @@
                 "tags": [
                     "移动框架"
                 ]
-            }, 
-            {
-                "name": "ECD动画库", 
-                "url": "http://ecd.tencent.com/css3/index.html", 
-                "des": "由腾讯电商前端团队编写的CSS3动画库", 
-                "tags": [
-                    "CSS资源", 
-                    "腾讯"
-                ]
-            }, 
+            },  
             {
                 "name": "Echo JS", 
                 "url": "http://www.echojs.com/", 
@@ -4096,3 +4088,43 @@
         ]
     }
 ]
+var C={
+    config:{
+        template:'<li>'+
+                    '<a href="{url}" target="_blank">'+
+                        '<h3>{name}</h3>'+
+                        '<p class="des">{des}</p>'+
+                        '<p class="tags">'+
+                            '<span>{tags}</span>'+
+                        '</p>'+
+                    '</a>'+
+                '</li>'
+    },
+    init:function(){
+        var self=this;
+        self.getData();
+    },
+    getData:function(){
+        var listhtml='',
+             item={},
+             self=this,
+             list=data[0].A;
+        $.each(list, function(i, n) {
+            item = {
+                url:n.url,
+                name: n.name,
+                des: n.des,
+                tags: n.tags[0]
+            }
+            listhtml += self.sub(C.config.template, item);
+        })
+        $('#a').next('.content').html(listhtml);
+    },
+    sub:function(s,o){
+        var SUBREGEX = /\{\s*([^|}]+?)\s*(?:\|([^}]*))?\s*\}/g;
+            return s.replace ? s.replace(SUBREGEX, function (m, k) {
+                return o[k] === 'undefined' ? m : o[k];
+            }) : s;
+    }
+}
+C.init();
