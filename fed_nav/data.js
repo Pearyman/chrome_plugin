@@ -1523,7 +1523,7 @@ var data=[
             {
                 "name": "HTML5 tests - video", 
                 "url": "http://www.quirksmode.org/html5/tests/video.html", 
-                "des": "This page tests the <code><video></code> tag.", 
+                "des": "This page tests the tag.", 
                 "tags": [
                     "工具", 
                     "caniuse"
@@ -3952,7 +3952,7 @@ var data=[
                 ]
             }
         ], 
-        "#": [
+        "jing": [
             {
                 "name": "360UXC", 
                 "url": "http://uxc.360.cn/", 
@@ -4103,22 +4103,63 @@ var C={
     init:function(){
         var self=this;
         self.getData();
+        self.bindEvent();
+    },
+    bindEvent:function(){
+
+        // $(window).scroll(function(){
+        //     console.log($(this).scrollTop());
+        // })
+
+        $('.aside a').on('click',function(){
+            var po=$(this).attr('data-position');
+            $("html,body").animate({scrollTop: po+'px'},1000);
+        })
     },
     getData:function(){
         var listhtml='',
              item={},
              self=this,
-             list=data[0].A;
-        $.each(list, function(i, n) {
-            item = {
-                url:n.url,
-                name: n.name,
-                des: n.des,
-                tags: n.tags[0]
-            }
-            listhtml += self.sub(C.config.template, item);
-        })
-        $('#a').next('.content').html(listhtml);
+             list=['A','B','C',
+                   'D',
+                   'E',
+                   'F',
+                   'G',
+                   'H',
+                   'I',
+                   'J',
+                   'K',
+                   'L',
+                   'M',
+                   'N',
+                   'O',
+                   'P',
+                   'Q',
+                   'R',
+                   'S',
+                   'T',
+                   'U',
+                   'V',
+                   'W',
+                   'X',
+                   'Y',
+                   'Z',
+                   'jing'];
+        for(var i in list){
+            listhtml='';
+            $.each(data[0][list[i]], function(i, n) {
+                item = {
+                    url:n.url,
+                    name: n.name,
+                    des: n.des,
+                    tags: n.tags[0]
+                }
+                listhtml += self.sub(C.config.template, item);
+                
+            })
+            $('#'+list[i]).next('.content').html(listhtml);
+        }
+        
     },
     sub:function(s,o){
         var SUBREGEX = /\{\s*([^|}]+?)\s*(?:\|([^}]*))?\s*\}/g;
