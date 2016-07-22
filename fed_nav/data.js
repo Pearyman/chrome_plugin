@@ -4110,6 +4110,9 @@ var C={
         // $(window).scroll(function(){
         //     console.log($(this).scrollTop());
         // })
+        $('#kw').on('keyup',function(){
+
+        })
 
         $('.aside a').on('click',function(){
             var po=$(this).attr('data-position');
@@ -4160,6 +4163,21 @@ var C={
             $('#'+list[i]).next('.content').html(listhtml);
         }
         
+    },
+    find_kw:function(txt){
+          console.log(txt);
+            var x = emails['a'];
+            var result = [];
+            for(var i = 0; i < x.length; i++){
+                var obj = x[i];
+                for (var p in obj) {
+                    if(obj[p].indexOf(txt.replace(/^\s*|\s*$/g, '')) != -1) {
+                        result.push(obj['name']);
+                        break;
+                    }
+                } 
+            }
+            console.log(result);
     },
     sub:function(s,o){
         var SUBREGEX = /\{\s*([^|}]+?)\s*(?:\|([^}]*))?\s*\}/g;
