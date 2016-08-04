@@ -11,11 +11,11 @@ A chrome插件 🚀🚀🚀
 
 ###使用方法：
 
-1,[b]fork[/b]  https://github.com/Pearyman/chrome_plugin;
+1,fork  https://github.com/Pearyman/chrome_plugin;
 
-2, [b]download [/b]此项目或者 [b]git clone[/b] https://github.com/Pearyman/chrome_plugin.git；
+2, download 此项目或者 git clone https://github.com/Pearyman/chrome_plugin.git；
 
-3, 进入chrome浏览器的拓展程序页面（你也可以打开chrome浏览器 ，在地址栏上输入 [b]chrome://extensions/[/b]）；
+3, 进入chrome浏览器的拓展程序页面（你也可以打开chrome浏览器 ，在地址栏上输入 chrome://extensions/）；
 
 4, 将文件夹中的fed_nav.crx 拖进去即可。
 
