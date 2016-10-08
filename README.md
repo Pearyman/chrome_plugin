@@ -4,8 +4,11 @@ A chrome插件 🚀🚀🚀
 做了一个前端的网站导航插件，可检索，可搜索。希望帮助大家在学习上有一些便利。
 
 ![](http://7xw3j4.com1.z0.glb.clouddn.com/fed_cj.gif)
+
 (为什么我的gif上传上来被github压缩了？)
+
 [效果图gif外链](http://7xw3j4.com1.z0.glb.clouddn.com/fed_cj.gif)
+
 ###使用方法：
 
 1,fork  https://github.com/Pearyman/chrome_plugin;
