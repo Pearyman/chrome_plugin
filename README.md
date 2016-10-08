@@ -3,11 +3,7 @@ A chrome插件 🚀🚀🚀
 
 做了一个前端的网站导航插件，可检索，可搜索。希望帮助大家在学习上有一些便利。
 
-<img src='http://7xw3j4.com1.z0.glb.clouddn.com/QQ20160803-0@2x.png' width=300/>
-
-<img src='http://7xw3j4.com1.z0.glb.clouddn.com/QQ20160803-1@2x.png' width=300/>
-
-
+<img src='http://7xw3j4.com1.z0.glb.clouddn.com/fed_cj.gif' width=300/>
 
 ###使用方法：
 
