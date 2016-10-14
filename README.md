@@ -22,7 +22,11 @@ A chrome插件 🚀🚀🚀
 
 [谷歌商店传送门](https://chrome.google.com/webstore/detail/%E5%89%8D%E7%AB%AF%E5%AF%BC%E8%88%AA/kimhkkondjpjhnllknndckjppgbjnjai?hl=zh-CN)
 
-###更新
+--------------
+
+###更新 2016-10-14
+
+--------------
 
 考虑到很多的盆友没有翻墙，我这里给个下载的链接
 [下载链接](http://7xw3j4.com1.z0.glb.clouddn.com/fed_nav.crx)
