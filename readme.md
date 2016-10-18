@@ -15,7 +15,7 @@
 
 ###使用方法：
 
-1,fork  https://github.com/Pearyman/chrome_plugin;
+1,fork 或 star https://github.com/Pearyman/chrome_plugin;
 
 2, download 此项目或者 git clone https://github.com/Pearyman/chrome_plugin.git；
 
