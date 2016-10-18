@@ -19,7 +19,7 @@ A chrome插件 🚀🚀🚀
 
 4, 将文件夹中的fed_nav.crx 拖进去即可。
 
-当然如果你可以翻墙的话，你也可以直接到谷歌商店去下载：
+`当然如果你可以翻墙的话，你也可以直接到谷歌商店去下载：`
 
 [谷歌商店传送门](https://chrome.google.com/webstore/detail/%E5%89%8D%E7%AB%AF%E5%AF%BC%E8%88%AA/kimhkkondjpjhnllknndckjppgbjnjai?hl=zh-CN)
 
