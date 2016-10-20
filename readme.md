@@ -27,17 +27,6 @@
 
 [谷歌商店传送门](https://chrome.google.com/webstore/detail/%E5%89%8D%E7%AB%AF%E5%AF%BC%E8%88%AA/kimhkkondjpjhnllknndckjppgbjnjai?hl=zh-CN)
 
---------------
-
-###更新 2016-10-14
-
-
-
-考虑到很多的盆友没有翻墙，我这里给个下载的链接
-[下载链接](http://7xw3j4.com1.z0.glb.clouddn.com/fed_nav.crx)
-
-
---------------
 
 项目wiki:[https://github.com/Pearyman/chrome_plugin/wiki/%E6%AC%A2%E8%BF%8Efork%E5%B9%B6%E8%B4%A1%E7%8C%AE%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%E3%80%82](https://github.com/Pearyman/chrome_plugin/wiki/%E6%AC%A2%E8%BF%8Efork%E5%B9%B6%E8%B4%A1%E7%8C%AE%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%E3%80%82)
 
@@ -62,5 +51,18 @@
 ```
 
 2， 新建一个issue，在issue中填上数据即可。
+
+--------------
+
+###更新 2016-10-14
+
+
+
+考虑到很多的盆友没有翻墙，我这里给个下载的链接
+[下载链接](http://7xw3j4.com1.z0.glb.clouddn.com/fed_nav.crx)
+
+
+--------------
+
 
 -------------------------
