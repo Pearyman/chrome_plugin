@@ -66,7 +66,7 @@ A chrome插件 🚀🚀🚀
 
 1，优化了查询体验。
 
-考虑到很多的盆友没有翻墙，我这里给个下载的链接
+下载链接:
 [下载链接](http://7xw3j4.com1.z0.glb.clouddn.com/fed_nav_v1.0.1.crx)
 
 
