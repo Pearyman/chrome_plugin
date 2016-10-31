@@ -9,7 +9,7 @@
 
 ![](http://7xw3j4.com1.z0.glb.clouddn.com/fed_cj.gif)
 
-(为什么我的gif上传上来被github压缩了？)
+
 
 [效果图gif外链](http://7xw3j4.com1.z0.glb.clouddn.com/fed_cj.gif)
 
