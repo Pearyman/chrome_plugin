@@ -10,9 +10,6 @@
 ![](http://7xw3j4.com1.z0.glb.clouddn.com/fed_cj.gif)
 
 
-
-[效果图gif外链](http://7xw3j4.com1.z0.glb.clouddn.com/fed_cj.gif)
-
 ###使用方法：
 
 1,fork 或 star https://github.com/Pearyman/chrome_plugin;
