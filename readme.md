@@ -1,5 +1,10 @@
 ## chrome plugins
 
+[![GitHub issues](https://img.shields.io/github/issues/Pearyman/chrome_plugin.svg)](https://github.com/Pearyman/chrome_plugin/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Pearyman/chrome_plugin.svg)](https://github.com/Pearyman/chrome_plugin/network)
+[![GitHub stars](https://img.shields.io/github/stars/Pearyman/chrome_plugin.svg)](https://github.com/Pearyman/chrome_plugin/stargazers)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/Pearyman/chrome_plugin.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
+
 组件列表和说明:
 
 ------------------
