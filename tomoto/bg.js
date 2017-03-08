@@ -1,0 +1,1 @@
+chrome.pageAction.show(tabId);

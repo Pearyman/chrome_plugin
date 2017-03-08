@@ -1,0 +1,22 @@
+{
+    "name": "前端导航",
+    "version": "1.0.1",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "run_at": "document_end",
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["bg.js"]
+    }],
+    "background": {
+        "scripts": ["bg.js"]
+    },
+    "description": "前端设计技术导航",
+    "permissions": ["tabs"],
+    "page_action": {
+        "default_icon": {
+            "18": "icon.gif"
+        },
+        "default_title": "fed_nav",
+        "default_popup": "index.html"
+    }
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<style type="text/css">
+	*{margin:0; padding:0;}
+	.slider-content{margin:0 auto; width: 500px; position: relative;}
+	.slider-content>ul{margin-bottom: 80px;}
+	.slider-content>ul >li{padding-left:20px; list-style: none; height: 30px; line-height: 30px; border-bottom: 1px solid #ddd; color:#787878; background: #f8f9fb;}
+	#search{padding-left:20px; height: 40px; line-height: 40px; background: #f8f9fb; font-size: 20px; font-weight: bold;}
+	.content li{list-style: none; border-bottom: 1px solid #ddd;  padding:5px 20px; background-image:url('http://7xw3j4.com1.z0.glb.clouddn.com/button_bg.png'); background-position:bottom left, top right, 0 0, 0 0; background-clip:border-box;-webkit-transition:background-position 1s; -moz-transition:background-position 1s; transition:background-position 1s;}
+	.content li:hover{background:#f8f9fb; background-position:top left; background-position:top left, bottom right, 0 0, 0 0; background-image:url('http://7xw3j4.com1.z0.glb.clouddn.com/button_bg.png'), url('http://7xw3j4.com1.z0.glb.clouddn.com/button_bg.png'), -moz-radial-gradient(center bottom, circle, rgba(248,249,251,1) 0,rgba(248,249,251,0) 100px),-moz-linear-gradient(#fff, #dfdfdf);
+	background-image:url('http://7xw3j4.com1.z0.glb.clouddn.com/button_bg.png'), url('http://7xw3j4.com1.z0.glb.clouddn.com/button_bg.png'), -webkit-gradient(radial, 50% 100%, 0, 50% 100%, 100, from(rgba(248,249,251,1)), to(rgba(248,249,251,0))),-webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#dfdfdf))}
+	.content li a{display:block; height: 40px; outline: none; border:none;}
+	.content li p.tags{margin-right:10px; float: right;}
+	.content li p.tags span{display: inline-block; padding:4px; background: #d6d6d6; font-size: 12px; color:#fff; border-radius: 2px;}
+	.content li p.des, h3{float:left; width: 80%; white-space: nowrap; text-overflow:ellipsis; overflow:hidden;}
+	.content li p.des{color:#848484; font-size: 12px; line-height: 26px;}
+	.content li h3{color:#000;}
+	.content li h3 em,.content li p.des em{font-style:normal;}
+	.aside{position:fixed; top: 30px; right: 10px;}
+	.aside>a{display: block; text-decoration: none; color: #000; width: 25px; height: 19px; line-height: 19px; text-align: center;}
+	.aside>a:hover{color:#d6d6d6;}
+	.j_search{position: fixed; bottom: 0; width: 100%;}
+	.j_search input{padding:0 20px; height: 50px; line-height: 50px; background: rgba(255,255,255,0.9); width:100%; outline: none; border:none; font-size: 30px; font-weight: 100;}
+	.kw{color: red;}
+	.content h2{margin:10px 0 0 20px;}
+</style>
+</head>
+<body>
+	<div class="slider-content">
+		<ul>
+			<li id="A">A</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="B">B</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="C">C</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="D">D</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="E">E</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="F">F</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="G">G</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="H">H</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="I">I</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="J">J</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="K">K</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="L">L</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="M">M</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="N">N</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="O">O</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="P">P</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="Q">Q</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="R">R</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="S">S</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="T">T</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="U">U</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="V">V</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="W">W</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="X">X</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="Y">Y</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="Z">Z</li>
+			<ul class="content fix-block">				
+			</ul>
+			<li id="jing">#</li>
+			<ul class="content fix-block">				
+			</ul>
+			<p id="search">Search Result</p>
+			<ul class="content">				
+			</ul>
+		</ul>
+		<div class="aside">
+			<a href="#A" data-position='0'>A</a>
+			<a href="#B" data-position='949'>B</a>
+			<a href="#C" data-position='2153'>C</a>
+			<a href="#D" data-position='4581'>D</a>
+			<a href="#E" data-position='5326'>E</a>
+			<a href="#F" data-position='5969'>F</a>
+			<a href="#G" data-position='7632'>G</a>
+			<a href="#H" data-position='8479'>H</a>
+			<a href="#I" data-position='9428'>I</a>
+			<a href="#J" data-position='10173'>J</a>
+			<a href="#K" data-position='11581'>K</a>
+			<a href="#L" data-position='11714'>L</a>
+			<a href="#M" data-position='12612'>M</a>
+			<a href="#N" data-position='13408'>N</a>
+			<a href="#O" data-position='14102'>O</a>
+			<a href="#P" data-position='14337'>P</a>
+			<a href="#Q" data-position='15643'>Q</a>
+			<a href="#R" data-position='16133'>R</a>
+			<a href="#S" data-position='17082'>S</a>
+			<a href="#T" data-position='18796'>T</a>
+			<a href="#U" data-position='19949'>U</a>
+			<a href="#V" data-position='20949'>V</a>
+			<a href="#W" data-position='21337'>W</a>
+			<a href="#X" data-position='22694'>X</a>
+			<a href="#Y" data-position='22929'>Y</a>
+			<a href="#Z" data-position='23470'>Z</a>
+			<a href="#jing" data-position='24113'>#</a>
+		</div>
+		<div class="j_search">
+			<input type="text" id="kw" placeholder="Type in a keyword and search." tabindex="1" />
+		</div>
+	</div>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="data.js"></script>
+</body>
+</html>
