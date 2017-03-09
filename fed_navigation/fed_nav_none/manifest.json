@@ -1,7 +1,7 @@
 {
     "name": "tomoto",
     "version": "1.0.2",
-    "manifest_version": 3,
+    "manifest_version": 2,
     "content_scripts": [{
         "run_at": "document_idle",
         "matches": ["http://*/*", "https://*/*"],
