@@ -1,5 +1,4 @@
 // 去百度推广广告
-
 var clear_ad = {
     init: function() {
         var self = this;
@@ -21,16 +20,18 @@ var clear_ad = {
     },
     bindEvent: function() {
         var self = this;
-
+        var composeBox = document.querySelector('#wrapper_wrapper');
         var observer = new MutationObserver(function() {
 
             self.removeAd();
 
         });
+        if (composeBox) {
+            observer.observe(composeBox, {
+                'childList': true
+            });
+        }
 
-        observer.observe(document.querySelector('#wrapper_wrapper'), {
-            'childList': true
-        });
     }
 
 };
