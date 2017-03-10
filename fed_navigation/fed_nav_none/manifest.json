@@ -15,7 +15,8 @@
             "32": "tomoto_32.png",
             "38": "tomoto_38.png",
             "40": "tomoto_40.png",
-            "48": "tomoto_48.png"
+            "48": "tomoto_48.png",
+            "128": "tomoto_128.jpg"
         },
         "default_title": "tomoto",
         "default_popup": "index.html"
