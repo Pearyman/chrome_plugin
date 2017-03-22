@@ -1,5 +1,5 @@
-/fed_navigation/*
-/tomoto/*
+fed_navigation/*
+tomoto/*
 # Build and Release Folders
 bin/
 bin-debug/
