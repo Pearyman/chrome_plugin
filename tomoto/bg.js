@@ -1,1 +1,1 @@
-chrome.pageAction.show(tabId);
+chrome.pageAction.show(tabId)

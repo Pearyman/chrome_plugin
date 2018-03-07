@@ -1,6 +1,6 @@
 {
-    "name": "tomoto",
-    "version": "1.0.3",
+    "name": "fetools",
+    "version": "1.1.0",
     "manifest_version": 2,
     "content_scripts": [{
         "run_at": "document_idle",
@@ -10,15 +10,15 @@
     "description": "前端设计技术导航",
     "browser_action": {
         "default_icon": {
-            "16": "tomoto_16.png",
-            "19": "tomoto_19.png",
-            "32": "tomoto_32.png",
-            "38": "tomoto_38.png",
-            "40": "tomoto_40.png",
-            "48": "tomoto_48.png",
-            "128": "tomoto_128.jpg"
+            "16": "Tools_16.png",
+            "19": "Tools_19.png",
+            "32": "Tools_32.png",
+            "38": "Tools_38.png",
+            "40": "Tools_40.png",
+            "48": "Tools_48.png",
+            "128": "Tools_128.png"
         },
-        "default_title": "tomoto",
+        "default_title": "fetools",
         "default_popup": "index.html"
     }
 }
